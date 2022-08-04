@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import twitchImg from '../public/assets/projects/twitchimg.png'
 import netflixImg from '../public/assets/projects/netfliximg.png';
+import cryptoImg from '../public/assets/projects/cryptoimg.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -19,14 +20,14 @@ const Projects = () => {
                     backgroundImg={propertyImg}
                     projectUrl='/property'
                     tech='React JS'
-                  />
+          /> */}
                   <ProjectItem
                     title='Crypto App'
                     backgroundImg={cryptoImg}
                     projectUrl='/crypto'
                     tech='React JS'
         
-          /> */}
+          /> 
                   <ProjectItem
                     title='Netflix App'
                     backgroundImg={netflixImg}
